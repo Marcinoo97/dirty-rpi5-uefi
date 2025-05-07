@@ -2,7 +2,7 @@ armstub=RPI_EFI.fd
 device_tree_address=0x1f0000
 device_tree_end=0x210000
 
-# Force 32 bpp framebuffer allocation.
+# Force 32 bpp framebuffer allocation. haha
 framebuffer_depth=32
 
 # Disable compensation for displays with overscan.
