@@ -10,7 +10,7 @@ EDK2_FLAGS=""
 
 print_usage() {
     echo
-    echo "Build TF-A + EDK2 image for Raspberry Pi."
+    echo "Build TF-A + EDK2 image for Raspberry Pi 4 or 5."
     echo
     echo "Usage: build.sh [options]"
     echo
