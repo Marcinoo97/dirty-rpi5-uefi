@@ -16,15 +16,13 @@ Check the [Supported OSes](#supported-oses) and [Supported peripherals in UEFI](
 
   **Note:** Using an inadequate supply can cause all sorts of issues, from underclocking to random crashes.
 
-* #### HDMI display
+* #### HDMI display (maybe not now)
 
 * #### Some form of cooling (fan, heatsink)
   The device may thermal throttle otherwise.
 
 Optionally, if display is not available or for debugging purposes, an UART serial adapter compatible with the special connector. Configuration is `115200 8n1`.
 
-## 2. Download the firmware image
-The latest version can be obtained from [Releases](https://github.com/worproject/rpi5-uefi/releases).
 
 ## 3. Flash the firmware
 Prepare an empty boot drive by formatting the first partition as FAT32, then extract the archive downloaded above to the root of this partition.
